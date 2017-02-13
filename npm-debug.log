@@ -1,0 +1,527 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bcrypt',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\Users\Samuel Mboya\WebstormProjects\F&TChat\package.json
+5 warn package.json ftchat@1.0.0 No repository field.
+6 warn package.json ftchat@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcryptjs\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\body-parser\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\connect-flash\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\cookie-parser\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\express\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\express-handlebars\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\express-messages\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\express-session\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\express-validator\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\gulp\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\gulp-nodemon\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\jquery\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\jsdom\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\mongodb\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\mongoose\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\passport\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\passport-http\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\passport-local\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\twit\package.json
+26 info package.json connect-flash@0.1.1 No license field.
+27 info package.json express-messages@1.0.1 No license field.
+28 info package.json passport-http@0.3.0 No license field.
+29 info package.json passport-local@1.0.0 No license field.
+30 verbose readDependencies loading dependencies from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\package.json
+31 silly cache add args [ 'bcrypt', null ]
+32 verbose cache add spec bcrypt
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'bcrypt',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'bcrypt',
+33 silly cache add   rawSpec: '',
+33 silly cache add   spec: 'latest',
+33 silly cache add   type: 'tag' }
+34 silly addNamed bcrypt@latest
+35 verbose addNamed "latest" is being treated as a dist-tag for bcrypt
+36 info addNameTag [ 'bcrypt', 'latest' ]
+37 silly mapToRegistry name bcrypt
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry data Result {
+40 silly mapToRegistry   raw: 'bcrypt',
+40 silly mapToRegistry   scope: null,
+40 silly mapToRegistry   name: 'bcrypt',
+40 silly mapToRegistry   rawSpec: '',
+40 silly mapToRegistry   spec: 'latest',
+40 silly mapToRegistry   type: 'tag' }
+41 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+42 verbose addNameTag registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+43 verbose request uri https://registry.npmjs.org/bcrypt
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 1:02:36 PM
+46 verbose request id b45dd03d80f5249c
+47 http request GET https://registry.npmjs.org/bcrypt
+48 http 200 https://registry.npmjs.org/bcrypt
+49 verbose headers { server: 'nginx/1.10.1',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'last-modified': 'Wed, 01 Feb 2017 01:42:38 GMT',
+49 verbose headers   etag: 'W/"58913d0e-16d64"',
+49 verbose headers   'content-encoding': 'gzip',
+49 verbose headers   'cache-control': 'max-age=300',
+49 verbose headers   'content-length': '11037',
+49 verbose headers   'accept-ranges': 'bytes',
+49 verbose headers   date: 'Wed, 01 Feb 2017 10:02:38 GMT',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   age: '0',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'x-served-by': 'cache-fjr7923-FJR',
+49 verbose headers   'x-cache': 'MISS',
+49 verbose headers   'x-cache-hits': '0',
+49 verbose headers   'x-timer': 'S1485943358.213597,VS0,VE535',
+49 verbose headers   vary: 'Accept-Encoding' }
+50 silly get cb [ 200,
+50 silly get   { server: 'nginx/1.10.1',
+50 silly get     'content-type': 'application/json',
+50 silly get     'last-modified': 'Wed, 01 Feb 2017 01:42:38 GMT',
+50 silly get     etag: 'W/"58913d0e-16d64"',
+50 silly get     'content-encoding': 'gzip',
+50 silly get     'cache-control': 'max-age=300',
+50 silly get     'content-length': '11037',
+50 silly get     'accept-ranges': 'bytes',
+50 silly get     date: 'Wed, 01 Feb 2017 10:02:38 GMT',
+50 silly get     via: '1.1 varnish',
+50 silly get     age: '0',
+50 silly get     connection: 'keep-alive',
+50 silly get     'x-served-by': 'cache-fjr7923-FJR',
+50 silly get     'x-cache': 'MISS',
+50 silly get     'x-cache-hits': '0',
+50 silly get     'x-timer': 'S1485943358.213597,VS0,VE535',
+50 silly get     vary: 'Accept-Encoding' } ]
+51 verbose get saving bcrypt to C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\registry.npmjs.org\bcrypt\.cache.json
+52 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+53 silly addNameTag next cb for bcrypt with tag latest
+54 silly addNamed bcrypt@1.0.2
+55 verbose addNamed "1.0.2" is a plain semver version for bcrypt
+56 silly mapToRegistry name bcrypt
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'bcrypt',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'bcrypt',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+61 verbose addRemoteTarball https://registry.npmjs.org/bcrypt/-/bcrypt-1.0.2.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcrypt/-/bcrypt-1.0.2.tgz',
+62 verbose addRemoteTarball   'd05fc5d223173e0e28ec381c0f00cc25ffaf2736' ]
+63 info retry fetch attempt 1 at 1:02:38 PM
+64 info attempt registry request try #1 at 1:02:38 PM
+65 http fetch GET https://registry.npmjs.org/bcrypt/-/bcrypt-1.0.2.tgz
+66 http fetch 200 https://registry.npmjs.org/bcrypt/-/bcrypt-1.0.2.tgz
+67 silly fetchAndShaCheck shasum d05fc5d223173e0e28ec381c0f00cc25ffaf2736
+68 verbose addTmpTarball C:\Users\SAMUEL~1\AppData\Local\Temp\npm-4480-6b200bbe\registry.npmjs.org\bcrypt\-\bcrypt-1.0.2.tgz not in flight; adding
+69 verbose addTmpTarball already have metadata; skipping unpack for bcrypt@1.0.2
+70 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 silly cache afterAdd bcrypt@1.0.2
+72 verbose afterAdd C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\bcrypt\1.0.2\package\package.json not in flight; writing
+73 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+74 verbose afterAdd C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\bcrypt\1.0.2\package\package.json written
+75 silly install resolved [ { name: 'bcrypt',
+75 silly install resolved     description: 'A bcrypt library for NodeJS.',
+75 silly install resolved     keywords:
+75 silly install resolved      [ 'bcrypt',
+75 silly install resolved        'password',
+75 silly install resolved        'auth',
+75 silly install resolved        'authentication',
+75 silly install resolved        'encryption',
+75 silly install resolved        'crypt',
+75 silly install resolved        'crypto' ],
+75 silly install resolved     main: './bcrypt',
+75 silly install resolved     version: '1.0.2',
+75 silly install resolved     author: { name: 'Nick Campbell', url: 'https://github.com/ncb000gt' },
+75 silly install resolved     engines: { node: '>= 0.6.0' },
+75 silly install resolved     repository:
+75 silly install resolved      { type: 'git',
+75 silly install resolved        url: 'git+https://github.com/kelektiv/node.bcrypt.js.git' },
+75 silly install resolved     license: 'MIT',
+75 silly install resolved     bugs: { url: 'https://github.com/kelektiv/node.bcrypt.js/issues' },
+75 silly install resolved     scripts:
+75 silly install resolved      { test: 'npm install --build-from-source && nodeunit test',
+75 silly install resolved        install: 'node-pre-gyp install --fallback-to-build' },
+75 silly install resolved     dependencies: { bindings: '1.2.1', nan: '2.5.0', 'node-pre-gyp': '0.6.32' },
+75 silly install resolved     devDependencies: { nodeunit: '~0.9.1' },
+75 silly install resolved     contributors:
+75 silly install resolved      [ [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object],
+75 silly install resolved        [Object] ],
+75 silly install resolved     binary:
+75 silly install resolved      { module_name: 'bcrypt_lib',
+75 silly install resolved        module_path: './lib/binding/',
+75 silly install resolved        host: 'https://github.com',
+75 silly install resolved        remote_path: '/kelektiv/node.bcrypt.js/releases/download/v{version}/' },
+75 silly install resolved     gitHead: '9036615a24c51f0d125ae39efbf9b943f16c8571',
+75 silly install resolved     homepage: 'https://github.com/kelektiv/node.bcrypt.js#readme',
+75 silly install resolved     _id: 'bcrypt@1.0.2',
+75 silly install resolved     _shasum: 'd05fc5d223173e0e28ec381c0f00cc25ffaf2736',
+75 silly install resolved     _from: 'bcrypt@latest',
+75 silly install resolved     _npmVersion: '3.10.3',
+75 silly install resolved     _nodeVersion: '6.7.0',
+75 silly install resolved     _npmUser: { name: 'defunctzombie', email: 'shtylman@gmail.com' },
+75 silly install resolved     dist:
+75 silly install resolved      { shasum: 'd05fc5d223173e0e28ec381c0f00cc25ffaf2736',
+75 silly install resolved        tarball: 'https://registry.npmjs.org/bcrypt/-/bcrypt-1.0.2.tgz' },
+75 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+75 silly install resolved     _npmOperationalInternal:
+75 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+75 silly install resolved        tmp: 'tmp/bcrypt-1.0.2.tgz_1483224043409_0.592600307893008' },
+75 silly install resolved     directories: {},
+75 silly install resolved     _resolved: 'https://registry.npmjs.org/bcrypt/-/bcrypt-1.0.2.tgz' } ]
+76 info install bcrypt@1.0.2 into C:\Users\Samuel Mboya\WebstormProjects\F&TChat
+77 info installOne bcrypt@1.0.2
+78 verbose installOne of bcrypt to C:\Users\Samuel Mboya\WebstormProjects\F&TChat not in flight; installing
+79 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+80 verbose lock using C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\_locks\bcrypt-9304b9d926c9580b.lock for C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt
+81 silly install write writing bcrypt 1.0.2 to C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt
+82 verbose unbuild node_modules\bcrypt
+83 silly gentlyRm C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt is being purged from base C:\Users\Samuel Mboya\WebstormProjects\F&TChat
+84 verbose gentlyRm don't care about contents; nuking C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt
+85 verbose tar unpack C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\bcrypt\1.0.2\package.tgz
+86 verbose tar unpacking to C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt
+87 silly gentlyRm C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt is being purged
+88 verbose gentlyRm don't care about contents; nuking C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt
+89 silly gunzTarPerm modes [ '777', '666' ]
+90 silly gunzTarPerm extractEntry package.json
+91 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+92 silly gunzTarPerm extractEntry .npmignore
+93 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+94 silly gunzTarPerm extractEntry README.md
+95 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+96 silly gunzTarPerm extractEntry LICENSE
+97 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+98 silly gunzTarPerm extractEntry bcrypt.js
+99 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry Makefile
+101 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+102 silly gunzTarPerm extractEntry .travis.yml
+103 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+104 silly gunzTarPerm extractEntry appveyor.yml
+105 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+106 silly gunzTarPerm extractEntry CHANGELOG.md
+107 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+108 silly gunzTarPerm extractEntry binding.gyp
+109 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+110 silly gunzTarPerm extractEntry examples/async_compare.js
+111 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+113 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry lib/promises.js
+115 silly gunzTarPerm modified mode [ 'lib/promises.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry test/async.js
+117 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry test/promise.js
+119 silly gunzTarPerm modified mode [ 'test/promise.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry test/repetitions.js
+121 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry test/sync.js
+123 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+125 silly gunzTarPerm modified mode [ 'ISSUE_TEMPLATE.md', 420, 438 ]
+126 silly gunzTarPerm extractEntry src/bcrypt.cc
+127 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
+128 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+129 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
+130 silly gunzTarPerm extractEntry src/blowfish.cc
+131 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
+132 silly gunzTarPerm extractEntry src/node_blf.h
+133 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
+134 silly gunzTarPerm extractEntry werker.yml
+135 silly gunzTarPerm modified mode [ 'werker.yml', 420, 438 ]
+136 verbose write writing to C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt\package.json
+137 info preinstall bcrypt@1.0.2
+138 verbose readDependencies loading dependencies from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt\package.json
+139 silly prepareForInstallMany adding bindings@1.2.1 from bcrypt dependencies
+140 silly prepareForInstallMany adding nan@2.5.0 from bcrypt dependencies
+141 silly prepareForInstallMany adding node-pre-gyp@0.6.32 from bcrypt dependencies
+142 verbose readDependencies loading dependencies from C:\Users\Samuel Mboya\WebstormProjects\F&TChat\node_modules\bcrypt\package.json
+143 silly cache add args [ 'bindings@1.2.1', null ]
+144 verbose cache add spec bindings@1.2.1
+145 silly cache add args [ 'nan@2.5.0', null ]
+146 verbose cache add spec nan@2.5.0
+147 silly cache add parsed spec Result {
+147 silly cache add   raw: 'bindings@1.2.1',
+147 silly cache add   scope: null,
+147 silly cache add   name: 'bindings',
+147 silly cache add   rawSpec: '1.2.1',
+147 silly cache add   spec: '1.2.1',
+147 silly cache add   type: 'version' }
+148 silly addNamed bindings@1.2.1
+149 verbose addNamed "1.2.1" is a plain semver version for bindings
+150 silly mapToRegistry name bindings
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'bindings',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   name: 'bindings',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/bindings
+155 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'nan@2.5.0',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'nan',
+156 silly cache add   rawSpec: '2.5.0',
+156 silly cache add   spec: '2.5.0',
+156 silly cache add   type: 'version' }
+157 silly addNamed nan@2.5.0
+158 verbose addNamed "2.5.0" is a plain semver version for nan
+159 silly mapToRegistry name nan
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'nan',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   name: 'nan',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/nan
+164 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+165 silly cache add args [ 'node-pre-gyp@0.6.32', null ]
+166 verbose cache add spec node-pre-gyp@0.6.32
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'node-pre-gyp@0.6.32',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'node-pre-gyp',
+167 silly cache add   rawSpec: '0.6.32',
+167 silly cache add   spec: '0.6.32',
+167 silly cache add   type: 'version' }
+168 silly addNamed node-pre-gyp@0.6.32
+169 verbose addNamed "0.6.32" is a plain semver version for node-pre-gyp
+170 silly mapToRegistry name node-pre-gyp
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'node-pre-gyp',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   name: 'node-pre-gyp',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/node-pre-gyp
+175 verbose addNameVersion registry:https://registry.npmjs.org/node-pre-gyp not in flight; fetching
+176 verbose request uri https://registry.npmjs.org/bindings
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 1:02:39 PM
+179 http request GET https://registry.npmjs.org/bindings
+180 verbose request uri https://registry.npmjs.org/node-pre-gyp
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 1:02:39 PM
+183 http request GET https://registry.npmjs.org/node-pre-gyp
+184 verbose request uri https://registry.npmjs.org/nan
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 1:02:39 PM
+187 verbose etag W/"5818d749-1ce1e"
+188 verbose lastModified Tue, 01 Nov 2016 17:56:25 GMT
+189 http request GET https://registry.npmjs.org/nan
+190 http 200 https://registry.npmjs.org/nan
+191 verbose headers { server: 'nginx/1.10.1',
+191 verbose headers   'content-type': 'application/json',
+191 verbose headers   'last-modified': 'Sun, 22 Jan 2017 22:27:41 GMT',
+191 verbose headers   etag: 'W/"588531dd-1df56"',
+191 verbose headers   'content-encoding': 'gzip',
+191 verbose headers   'cache-control': 'max-age=300',
+191 verbose headers   'content-length': '14419',
+191 verbose headers   'accept-ranges': 'bytes',
+191 verbose headers   date: 'Wed, 01 Feb 2017 10:02:40 GMT',
+191 verbose headers   via: '1.1 varnish',
+191 verbose headers   age: '149',
+191 verbose headers   connection: 'keep-alive',
+191 verbose headers   'x-served-by': 'cache-fjr7922-FJR',
+191 verbose headers   'x-cache': 'HIT',
+191 verbose headers   'x-cache-hits': '1',
+191 verbose headers   'x-timer': 'S1485943360.713115,VS0,VE0',
+191 verbose headers   vary: 'Accept-Encoding' }
+192 silly get cb [ 200,
+192 silly get   { server: 'nginx/1.10.1',
+192 silly get     'content-type': 'application/json',
+192 silly get     'last-modified': 'Sun, 22 Jan 2017 22:27:41 GMT',
+192 silly get     etag: 'W/"588531dd-1df56"',
+192 silly get     'content-encoding': 'gzip',
+192 silly get     'cache-control': 'max-age=300',
+192 silly get     'content-length': '14419',
+192 silly get     'accept-ranges': 'bytes',
+192 silly get     date: 'Wed, 01 Feb 2017 10:02:40 GMT',
+192 silly get     via: '1.1 varnish',
+192 silly get     age: '149',
+192 silly get     connection: 'keep-alive',
+192 silly get     'x-served-by': 'cache-fjr7922-FJR',
+192 silly get     'x-cache': 'HIT',
+192 silly get     'x-cache-hits': '1',
+192 silly get     'x-timer': 'S1485943360.713115,VS0,VE0',
+192 silly get     vary: 'Accept-Encoding' } ]
+193 verbose get saving nan to C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+194 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+195 http 200 https://registry.npmjs.org/node-pre-gyp
+196 verbose headers { server: 'nginx/1.10.1',
+196 verbose headers   'content-type': 'application/json',
+196 verbose headers   'last-modified': 'Sat, 14 Jan 2017 15:56:27 GMT',
+196 verbose headers   etag: 'W/"587a4a2b-26db5"',
+196 verbose headers   'content-encoding': 'gzip',
+196 verbose headers   'cache-control': 'max-age=300',
+196 verbose headers   'content-length': '18986',
+196 verbose headers   'accept-ranges': 'bytes',
+196 verbose headers   date: 'Wed, 01 Feb 2017 10:02:40 GMT',
+196 verbose headers   via: '1.1 varnish',
+196 verbose headers   age: '0',
+196 verbose headers   connection: 'keep-alive',
+196 verbose headers   'x-served-by': 'cache-fjr7920-FJR',
+196 verbose headers   'x-cache': 'MISS',
+196 verbose headers   'x-cache-hits': '0',
+196 verbose headers   'x-timer': 'S1485943360.661576,VS0,VE117',
+196 verbose headers   vary: 'Accept-Encoding' }
+197 silly get cb [ 200,
+197 silly get   { server: 'nginx/1.10.1',
+197 silly get     'content-type': 'application/json',
+197 silly get     'last-modified': 'Sat, 14 Jan 2017 15:56:27 GMT',
+197 silly get     etag: 'W/"587a4a2b-26db5"',
+197 silly get     'content-encoding': 'gzip',
+197 silly get     'cache-control': 'max-age=300',
+197 silly get     'content-length': '18986',
+197 silly get     'accept-ranges': 'bytes',
+197 silly get     date: 'Wed, 01 Feb 2017 10:02:40 GMT',
+197 silly get     via: '1.1 varnish',
+197 silly get     age: '0',
+197 silly get     connection: 'keep-alive',
+197 silly get     'x-served-by': 'cache-fjr7920-FJR',
+197 silly get     'x-cache': 'MISS',
+197 silly get     'x-cache-hits': '0',
+197 silly get     'x-timer': 'S1485943360.661576,VS0,VE117',
+197 silly get     vary: 'Accept-Encoding' } ]
+198 verbose get saving node-pre-gyp to C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\registry.npmjs.org\node-pre-gyp\.cache.json
+199 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+200 silly mapToRegistry name nan
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry data Result {
+203 silly mapToRegistry   raw: 'nan',
+203 silly mapToRegistry   scope: null,
+203 silly mapToRegistry   name: 'nan',
+203 silly mapToRegistry   rawSpec: '',
+203 silly mapToRegistry   spec: 'latest',
+203 silly mapToRegistry   type: 'tag' }
+204 silly mapToRegistry uri https://registry.npmjs.org/nan
+205 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.5.0.tgz not in flight; adding
+206 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.5.0.tgz',
+206 verbose addRemoteTarball   'aa8f1e34531d807e9e27755b234b4a6ec0c152a8' ]
+207 info retry fetch attempt 1 at 1:02:39 PM
+208 info attempt registry request try #1 at 1:02:39 PM
+209 http fetch GET https://registry.npmjs.org/nan/-/nan-2.5.0.tgz
+210 silly mapToRegistry name node-pre-gyp
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'node-pre-gyp',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   name: 'node-pre-gyp',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npmjs.org/node-pre-gyp
+215 verbose addRemoteTarball https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.6.32.tgz not in flight; adding
+216 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.6.32.tgz',
+216 verbose addRemoteTarball   'fc452b376e7319b3d255f5f34853ef6fd8fe1fd5' ]
+217 info retry fetch attempt 1 at 1:02:39 PM
+218 info attempt registry request try #1 at 1:02:39 PM
+219 http fetch GET https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.6.32.tgz
+220 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.5.0.tgz
+221 http fetch 200 https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.6.32.tgz
+222 http 200 https://registry.npmjs.org/bindings
+223 verbose headers { server: 'nginx/1.10.1',
+223 verbose headers   'content-type': 'application/json',
+223 verbose headers   'last-modified': 'Tue, 18 Oct 2016 15:54:59 GMT',
+223 verbose headers   etag: 'W/"580645d3-46f7"',
+223 verbose headers   'content-encoding': 'gzip',
+223 verbose headers   'cache-control': 'max-age=300',
+223 verbose headers   'content-length': '3493',
+223 verbose headers   'accept-ranges': 'bytes',
+223 verbose headers   date: 'Wed, 01 Feb 2017 10:02:40 GMT',
+223 verbose headers   via: '1.1 varnish',
+223 verbose headers   age: '0',
+223 verbose headers   connection: 'keep-alive',
+223 verbose headers   'x-served-by': 'cache-fjr7923-FJR',
+223 verbose headers   'x-cache': 'HIT',
+223 verbose headers   'x-cache-hits': '1',
+223 verbose headers   'x-timer': 'S1485943360.454533,VS0,VE494',
+223 verbose headers   vary: 'Accept-Encoding' }
+224 silly get cb [ 200,
+224 silly get   { server: 'nginx/1.10.1',
+224 silly get     'content-type': 'application/json',
+224 silly get     'last-modified': 'Tue, 18 Oct 2016 15:54:59 GMT',
+224 silly get     etag: 'W/"580645d3-46f7"',
+224 silly get     'content-encoding': 'gzip',
+224 silly get     'cache-control': 'max-age=300',
+224 silly get     'content-length': '3493',
+224 silly get     'accept-ranges': 'bytes',
+224 silly get     date: 'Wed, 01 Feb 2017 10:02:40 GMT',
+224 silly get     via: '1.1 varnish',
+224 silly get     age: '0',
+224 silly get     connection: 'keep-alive',
+224 silly get     'x-served-by': 'cache-fjr7923-FJR',
+224 silly get     'x-cache': 'HIT',
+224 silly get     'x-cache-hits': '1',
+224 silly get     'x-timer': 'S1485943360.454533,VS0,VE494',
+224 silly get     vary: 'Accept-Encoding' } ]
+225 verbose get saving bindings to C:\Users\Samuel Mboya\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+226 verbose correctMkdir C:\Users\Samuel Mboya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+227 silly mapToRegistry name bindings
+228 silly mapToRegistry using default registry
+229 silly mapToRegistry registry https://registry.npmjs.org/
+230 silly mapToRegistry data Result {
+230 silly mapToRegistry   raw: 'bindings',
+230 silly mapToRegistry   scope: null,
+230 silly mapToRegistry   name: 'bindings',
+230 silly mapToRegistry   rawSpec: '',
+230 silly mapToRegistry   spec: 'latest',
+230 silly mapToRegistry   type: 'tag' }
+231 silly mapToRegistry uri https://registry.npmjs.org/bindings
+232 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+233 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+233 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+234 info retry fetch attempt 1 at 1:02:39 PM
+235 info attempt registry request try #1 at 1:02:39 PM
+236 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+237 warn retry will retry, error on last attempt: Error: EBUSY: resource busy or locked, rename 'C:\Users\SAMUEL~1\AppData\Local\Temp\npm-4480-6b200bbe\registry.npmjs.org\node-pre-gyp\-\node-pre-gyp-0.6.32.tgz.2075759661' -> 'C:\Users\SAMUEL~1\AppData\Local\Temp\npm-4480-6b200bbe\registry.npmjs.org\node-pre-gyp\-\node-pre-gyp-0.6.32.tgz'
+238 verbose stack TypeError: tarball.destroy is not a function
+238 verbose stack     at WriteStreamAtomic.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-remote-tarball.js:85:15)
+238 verbose stack     at emitOne (events.js:82:20)
+238 verbose stack     at WriteStreamAtomic.emit (events.js:169:7)
+238 verbose stack     at WriteStreamAtomic.emit (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:60:34)
+238 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:89:19
+238 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+239 verbose cwd C:\Users\Samuel Mboya\WebstormProjects\F&TChat
+240 error Windows_NT 10.0.14393
+241 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bcrypt" "--save"
+242 error node v4.4.3
+243 error npm  v2.15.1
+244 error tarball.destroy is not a function
+245 error If you need help, you may report this error at:
+245 error     <https://github.com/npm/npm/issues>
+246 verbose exit [ 1, true ]
